@@ -115,7 +115,7 @@
 			</Meta>
 		</Module>
 		<Module name="Flan&apos;s Mod" id="flansmod" depends="" side="BOTH">
-			<URL priority="0">http://download1223.mediafire.com/90sb6hz2xh4g/1g89orpu8nf3e8r/Flans+Mod+5.1+for+MC+1.8+and+Apocalypse+1.0.zip</URL>
+			<URL priority="0"></URL>
 			<Size>1449052</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
