@@ -87,7 +87,7 @@
 			</Meta>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/coroutil/files/2563474/download</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2566250/download</URL>
 			<Size>227144</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
