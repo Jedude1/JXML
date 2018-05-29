@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="13" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="14" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		
 		<Import url="https://files.mcupdater.com/optional/ServerPack.xml">optional</Import>
@@ -317,6 +317,13 @@
 				<authors>YaLTeR</authors>
 			</Meta>
 		</Module>
+		<Module name="OptiFine_1.12.2_HD_U_D1" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
+			<URL priority="0">https://github.com/MCUpdater/pack-optional/raw/master/mods/1.12/OptiFine_1.12.2_HD_U_D1.jar</URL>
+			<Size>2372821</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4bfc1c95dde8ec08568e01bfaa61e7c5</MD5>
+		</Module>
 		<Module name="Squeedometer" id="squeedometer" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/squeedometer/files/2495580/download</URL>
 			<Size>39685</Size>
@@ -430,7 +437,7 @@
 			</Meta>
 		</Module>
 
-
+<!-- Flan's Content Packs -->
 
 		<Module name="Simple.Parts-Content.Pack-1.12.2-5.5.1" id="Simple.Parts-Content.Pack" depends="" side="BOTH">
 			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</URL>
@@ -457,6 +464,7 @@
 			<MD5>eec28e90ac891dee6bd267ed3bdd04cb</MD5>
 		</Module>
 		
+<!-- Config file with autojump disabled  -->
 		
 		<Module name="options" id="" depends="" side="BOTH">
 			<URL priority="0"></URL>
