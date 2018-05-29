@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="7" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="8" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download</URL>
@@ -19,7 +19,7 @@
 		<Module name="Blur" id="blur" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/blur/files/2460821/download</URL>
 			<Size>16146</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>fe6c57af5be36a9ed96f8ff7de61bbd1</MD5>
 			<Meta>
@@ -145,7 +145,7 @@
 		<Module name="FPS Reducer" id="fpsreducer" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/fps-reducer/files/2527580/download</URL>
 			<Size>38633</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>e10447951b00191ce4bc754a114e1675</MD5>
 			<Meta>
@@ -215,7 +215,7 @@
 		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/inventory-tweaks/files/2482481/download</URL>
 			<Size>263258</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
 			<Meta>
@@ -229,7 +229,7 @@
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/jei/files/2564320/download</URL>
 			<Size>562060</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>c6bf29ca13a2bd64348bd2b003795ce5</MD5>
 			<Meta>
@@ -269,7 +269,7 @@
 		<Module name="MobDismemberment" id="mobdismemberment" depends="" side="BOTH">
 			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/177/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.177.jar</URL>
 			<Size>22320</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>22ab479ab0c504cf1eec8d4cde93c300</MD5>
 			<Meta>
@@ -283,7 +283,7 @@
 		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/mouse-tweaks/files/2462627/download</URL>
 			<Size>68793</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
 			<Meta>
@@ -297,14 +297,14 @@
 		<Module name="OptiFine_1.12.2_HD_U_D3" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/OptiFine_1.12.2_HD_U_D3.jar</URL>
 			<Size>2380874</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>374a1e03b490afc539dabc04b29b49e6</MD5>
 		</Module>
 		<Module name="Squeedometer" id="squeedometer" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/squeedometer/files/2495580/download</URL>
 			<Size>39685</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>3149f7e59a8035d235d2d2f3dbe1767b</MD5>
 			<Meta>
@@ -346,7 +346,7 @@
 		<Module name="Waila" id="waila" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/hwyla/files/2542548/download</URL>
 			<Size>452200</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>6d03d0f2d87a80467d5d3e3ce2a80e98</MD5>
 			<Meta>
@@ -360,7 +360,7 @@
 		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2541610/download</URL>
 			<Size>81426</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>c9798883817315860154725613db6e77</MD5>
 			<Meta>
@@ -374,7 +374,7 @@
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
 			<URL priority="0">http://chocolateminecraft.com/mods/Xaeros_Minimap_1.15.1.2_Forge_1.12.jar</URL>
 			<Size>344792</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>ca0b34948d221b63d1b80e22b29b3deb</MD5>
 			<Meta>
@@ -388,7 +388,7 @@
 		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="BOTH">
 			<URL priority="0">http://chocolateminecraft.com/mods/XaerosWorldMap_1.2.4_Forge_1.12.jar</URL>
 			<Size>145134</Size>
-			<Required>false</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>79bec78accc2843edb10fa40152ebe8a</MD5>
 			<Meta>
