@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download</URL>
@@ -45,7 +45,7 @@
 			</Meta>
 		</Module>
 		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/CodeChickenLib-1.12.2-3.1.8.341-universal.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2558563/download</URL>
 			<Size>659298</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -73,7 +73,7 @@
 			</Meta>
 		</Module>
 		<Module name="CoroUtil Library" id="coroutil" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/coroutil-1.12.1-1.2.11.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/coroutil/files/2563474/download</URL>
 			<Size>2247366</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -129,7 +129,7 @@
 			</Meta>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/forestry_1.12.2-5.8.0.291.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/forestry/files/2562681/download</URL>
 			<Size>5240279</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -143,7 +143,7 @@
 			</Meta>
 		</Module>
 		<Module name="FPS Reducer" id="fpsreducer" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/FpsReducer-1.12.2-1.9.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/fps-reducer/files/2527580/download</URL>
 			<Size>38633</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -157,21 +157,21 @@
 			</Meta>
 		</Module>
 		<Module name="Galacticraft-Planets-1.12.2-4.0.1.177" id="Galacticraft-Planets" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/Galacticraft-Planets-1.12.2-4.0.1.177.jar</URL>
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/177/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.177.jar</URL>
 			<Size>3845865</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>b381590fdf0390a584bf979a5f6d063d</MD5>
 		</Module>
 		<Module name="GalacticraftCore-1.12.2-4.0.1.177" id="GalacticraftCore" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/GalacticraftCore-1.12.2-4.0.1.177.jar</URL>
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/177/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.1.177.jar</URL>
 			<Size>10356156</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>7b6f3195c7bcad581fbadab8015d35e6</MD5>
 		</Module>
 		<Module name="Gravestone Mod" id="gravestone" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/gravestone-1.10.1.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/gravestone-mod/files/2524880/download</URL>
 			<Size>76022</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -185,7 +185,7 @@
 			</Meta>
 		</Module>
 		<Module name="iChunUtil" id="ichunutil" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/iChunUtil-1.12.2-7.1.4.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/ichunutil/files/2510760/download</URL>
 			<Size>550812</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -199,7 +199,7 @@
 			</Meta>
 		</Module>
 		<Module name="IndustrialCraft 2" id="ic2" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/industrialcraft-2-2.8.73-ex112.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/industrial-craft/files/2547175/download</URL>
 			<Size>7982832</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -213,7 +213,7 @@
 			</Meta>
 		</Module>
 		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/InventoryTweaks-1.63.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/inventory-tweaks/files/2482481/download</URL>
 			<Size>263258</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -227,7 +227,7 @@
 			</Meta>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/jei_1.12.2-4.9.1.188.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/jei/files/2564320/download</URL>
 			<Size>562060</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -241,7 +241,7 @@
 			</Meta>
 		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/Mantle-1.12-1.3.2.24.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/mantle/files/2550550/download</URL>
 			<Size>860884</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -255,7 +255,7 @@
 			</Meta>
 		</Module>
 		<Module name="MicdoodleCore-1.12.2-4.0.1.177" id="MicdoodleCore" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/MicdoodleCore-1.12.2-4.0.1.177.jar</URL>
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/177/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.177.jar</URL>
 			<Size>52597</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -267,7 +267,7 @@
 			<ModType>Override</ModType>
 		</Module>
 		<Module name="MobDismemberment" id="mobdismemberment" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/MobDismemberment-1.12.2-7.0.0.jar</URL>
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/177/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.177.jar</URL>
 			<Size>22320</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -281,7 +281,7 @@
 			</Meta>
 		</Module>
 		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/MouseTweaks-2.8-mc1.12.1.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/mouse-tweaks/files/2462627/download</URL>
 			<Size>68793</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -295,14 +295,14 @@
 			</Meta>
 		</Module>
 		<Module name="OptiFine_1.12.2_HD_U_D3" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/OptiFine_1.12.2_HD_U_D3.jar</URL>
+			<URL priority="0">https://optifine.net/downloadx?f=OptiFine_1.12.2_HD_U_D3.jar&x=050cad7c00e281d3f430f632c8038165</URL>
 			<Size>2380874</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>374a1e03b490afc539dabc04b29b49e6</MD5>
 		</Module>
 		<Module name="Squeedometer" id="squeedometer" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/Squeedometer-mc1.12.x-1.0.4.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/squeedometer/files/2495580/download</URL>
 			<Size>39685</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -316,7 +316,7 @@
 			</Meta>
 		</Module>
 		<Module name="Tinkers Tool Leveling" id="tinkertoolleveling" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/TinkerToolLeveling-1.12-1.0.4.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/tinkers-tool-leveling/files/2558689/download</URL>
 			<Size>94332</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -330,7 +330,7 @@
 			</Meta>
 		</Module>
 		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/TConstruct-1.12.2-2.10.0.81.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/tinkers-construct/files/2563033/download</URL>
 			<Size>3803466</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -344,7 +344,7 @@
 			</Meta>
 		</Module>
 		<Module name="Waila" id="waila" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/Hwyla-1.8.24-B39_1.12.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/hwyla/files/2542548/download</URL>
 			<Size>452200</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -358,7 +358,7 @@
 			</Meta>
 		</Module>
 		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/Wawla-1.12.2-2.5.253.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2541610/download</URL>
 			<Size>81426</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -372,7 +372,7 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/Xaeros_Minimap_1.15.1.2_Forge_1.12.jar</URL>
+			<URL priority="0">http://chocolateminecraft.com/mods/Xaeros_Minimap_1.15.1.2_Forge_1.12.jar</URL>
 			<Size>344792</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -386,7 +386,7 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/XaerosWorldMap_1.2.4_Forge_1.12.jar</URL>
+			<URL priority="0">http://chocolateminecraft.com/mods/XaerosWorldMap_1.2.4_Forge_1.12.jar</URL>
 			<Size>145134</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -400,7 +400,7 @@
 			</Meta>
 		</Module>
 		<Module name="Zombie Awareness" id="zombieawareness" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/zombieawareness-1.12.1-1.11.14.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/zombie-awareness/files/2564634/download</URL>
 			<Size>284952</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
