@@ -267,7 +267,7 @@
 			<ModType>Override</ModType>
 		</Module>
 		<Module name="MobDismemberment" id="mobdismemberment" depends="" side="BOTH">
-			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/177/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.177.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/mob-dismemberment/files/2487081/download</URL>
 			<Size>22320</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
