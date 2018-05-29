@@ -15,6 +15,12 @@
 				<url>http://ae2.ae-mod.info</url>
 				<authors>AlgorithmX2</authors>
 			</Meta>
+			<ConfigFile>
+				<URL>https://github.com/Jedude1/JXML/blob/master/AppliedEnergistics2.cfg</URL>
+				<Path>AppliedEnergistics2/AppliedEnergistics2.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0cf444fbbf6fa1e6be7a1bfeebac8209</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Blur" id="blur" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/blur/files/2460821/download</URL>
@@ -454,5 +460,16 @@
 			<ModType>Regular</ModType>
 			<MD5>eec28e90ac891dee6bd267ed3bdd04cb</MD5>
 		</Module>
+		
+		
+		<Module name="defualt config" id="defualt config" depends="" side="CLIENT">
+			<ConfigFile>
+				<URL>https://github.com/Jedude1/JXML/blob/master/options.txt</URL>
+				<Path>options.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c9c474cd0ed54a1a10522d503868a860</MD5>
+			</ConfigFile>
+		</Module>
+		
 	</Server>
 </ServerPack>
