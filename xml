@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="5" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download</URL>
@@ -412,6 +412,33 @@
 				<url></url>
 				<authors>Corosus</authors>
 			</Meta>
+		</Module>
+
+
+
+		<Module name="Simple.Parts-Content.Pack-1.12.2-5.5.1" id="Simple.Parts-Content.Pack" depends="" side="BOTH">
+			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</URL>
+			<ModPath>Flan/</ModPath>
+			<Size>234016</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>372e90f1c60a602f2b3805f240b9f26a</MD5>
+		</Module>
+		<Module name="WW2-Content.Pack-1.12.2-5.5.1" id="WW-Content.Pack" depends="" side="BOTH">
+			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/WW2-Content.Pack-1.12.2-5.5.1.jar</URL>
+			<ModPath>Flan/</ModPath>
+			<Size>5857108</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a83cbc2259e7b55b2733c0ddcb23d6f4</MD5>
+		</Module>
+		<Module name="Ye.Olde-Content.Pack-1.12.2-5.5.1" id="Ye.Olde-Content.Pack" depends="" side="BOTH">
+			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Ye.Olde-Content.Pack-1.12.2-5.5.1.jar</URL>
+			<ModPath>Flan/</ModPath>
+			<Size>91319</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>eec28e90ac891dee6bd267ed3bdd04cb</MD5>
 		</Module>
 	</Server>
 </ServerPack>
