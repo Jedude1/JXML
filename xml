@@ -115,15 +115,15 @@
 			</Meta>
 		</Module>
 		<Module name="Flan&apos;s Mod" id="flansmod" depends="" side="BOTH">
-			<URL priority="0"></URL>
-			<Size>1449052</Size>
+			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Flan.s.Mod-1.12.2-5.5.1.jar</URL>
+			<Size>1449385</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>89c40a394ee7ee59bb0b92e143ced8d0</MD5>
+			<MD5>0c7de78b268f24aff08c420bdf3235fc</MD5>
 			<Meta>
 				<credits>All code contributors.</credits>
 				<description>Guns, planes and other vehicles in Minecraft.</description>
-				<version>5.5.2</version>
+				<version>5.5.1</version>
 				<url>http://www.flansmod.com</url>
 				<authors>jamioflan</authors>
 			</Meta>
