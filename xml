@@ -295,7 +295,7 @@
 			</Meta>
 		</Module>
 		<Module name="OptiFine_1.12.2_HD_U_D3" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
-			<URL priority="0">https://optifine.net/downloadx?f=OptiFine_1.12.2_HD_U_D3.jar&x=050cad7c00e281d3f430f632c8038165</URL>
+			<URL priority="0">www.google.com</URL>
 			<Size>2380874</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
