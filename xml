@@ -213,7 +213,7 @@
 			</Meta>
 		</Module>
 		<Module name="Insomniac" id="insomniac" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/insomniac.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/insomniac/files/2534883/download</URL>
 			<Size>8488</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
