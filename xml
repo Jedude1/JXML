@@ -418,7 +418,7 @@
 
 		<Module name="Simple.Parts-Content.Pack-1.12.2-5.5.1" id="Simple.Parts-Content.Pack" depends="" side="BOTH">
 			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</URL>
-			<ModPath>Flan/</ModPath>
+			<ModPath>Flan/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</ModPath>
 			<Size>234016</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -426,7 +426,7 @@
 		</Module>
 		<Module name="WW2-Content.Pack-1.12.2-5.5.1" id="WW-Content.Pack" depends="" side="BOTH">
 			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/WW2-Content.Pack-1.12.2-5.5.1.jar</URL>
-			<ModPath>Flan/</ModPath>
+			<ModPath>Flan/WW2-Content.Pack-1.12.2-5.5.1.jar</ModPath>
 			<Size>5857108</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -434,7 +434,7 @@
 		</Module>
 		<Module name="Ye.Olde-Content.Pack-1.12.2-5.5.1" id="Ye.Olde-Content.Pack" depends="" side="BOTH">
 			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Ye.Olde-Content.Pack-1.12.2-5.5.1.jar</URL>
-			<ModPath>Flan/</ModPath>
+			<ModPath>Flan/Ye.Olde-Content.Pack-1.12.2-5.5.1.jar</ModPath>
 			<Size>91319</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
