@@ -16,10 +16,10 @@
 				<authors>AlgorithmX2</authors>
 			</Meta>
 		</Module>
-		<Module name="Blur" id="blur" depends="" side="CLIENT">
+		<Module name="Blur" id="blur" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/blur/files/2460821/download</URL>
 			<Size>16146</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>fe6c57af5be36a9ed96f8ff7de61bbd1</MD5>
 			<Meta>
@@ -42,20 +42,6 @@
 				<version>1.9</version>
 				<url></url>
 				<authors>Tschipp, Purplicious_Cow, cy4n</authors>
-			</Meta>
-		</Module>
-		<Module name="Chest Transporter" id="chesttransporter" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/ChestTransporter-1.12.2-2.8.8.jar</URL>
-			<Size>314060</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>6f5aadb16a4357aad4b8bc662b76de77</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Adds an item that allows you to transport chests.</description>
-				<version>1.12.2-2.8.8</version>
-				<url>http://www.minecraftforum.net/topic/506109-</url>
-				<authors>CubeX2</authors>
 			</Meta>
 		</Module>
 		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
@@ -159,7 +145,7 @@
 		<Module name="FPS Reducer" id="fpsreducer" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/FpsReducer-1.12.2-1.9.jar</URL>
 			<Size>38633</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>e10447951b00191ce4bc754a114e1675</MD5>
 			<Meta>
@@ -229,7 +215,7 @@
 		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/InventoryTweaks-1.63.jar</URL>
 			<Size>263258</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
 			<Meta>
@@ -243,7 +229,7 @@
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/jei_1.12.2-4.9.1.188.jar</URL>
 			<Size>562060</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>c6bf29ca13a2bd64348bd2b003795ce5</MD5>
 			<Meta>
@@ -283,7 +269,7 @@
 		<Module name="MobDismemberment" id="mobdismemberment" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/MobDismemberment-1.12.2-7.0.0.jar</URL>
 			<Size>22320</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>22ab479ab0c504cf1eec8d4cde93c300</MD5>
 			<Meta>
@@ -297,7 +283,7 @@
 		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/MouseTweaks-2.8-mc1.12.1.jar</URL>
 			<Size>68793</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
 			<Meta>
@@ -311,28 +297,14 @@
 		<Module name="OptiFine_1.12.2_HD_U_D3" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/OptiFine_1.12.2_HD_U_D3.jar</URL>
 			<Size>2380874</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>374a1e03b490afc539dabc04b29b49e6</MD5>
-		</Module>
-		<Module name="Squake" id="squake" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/Squake-mc1.12.2-1.0.5.jar</URL>
-			<Size>20924</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>958ceea1c51a0eb2eb4b2263aebf1a40</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Quake-style movement in Minecraft.</description>
-				<version>1.0.5</version>
-				<url></url>
-				<authors>squeek</authors>
-			</Meta>
 		</Module>
 		<Module name="Squeedometer" id="squeedometer" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/Squeedometer-mc1.12.x-1.0.4.jar</URL>
 			<Size>39685</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>3149f7e59a8035d235d2d2f3dbe1767b</MD5>
 			<Meta>
@@ -374,7 +346,7 @@
 		<Module name="Waila" id="waila" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/Hwyla-1.8.24-B39_1.12.jar</URL>
 			<Size>452200</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>6d03d0f2d87a80467d5d3e3ce2a80e98</MD5>
 			<Meta>
@@ -388,7 +360,7 @@
 		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/Wawla-1.12.2-2.5.253.jar</URL>
 			<Size>81426</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>c9798883817315860154725613db6e77</MD5>
 			<Meta>
@@ -402,7 +374,7 @@
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/Xaeros_Minimap_1.15.1.2_Forge_1.12.jar</URL>
 			<Size>344792</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>ca0b34948d221b63d1b80e22b29b3deb</MD5>
 			<Meta>
@@ -416,7 +388,7 @@
 		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="BOTH">
 			<URL priority="0">http://files.mcupdater.com/example/XaerosWorldMap_1.2.4_Forge_1.12.jar</URL>
 			<Size>145134</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>79bec78accc2843edb10fa40152ebe8a</MD5>
 			<Meta>
