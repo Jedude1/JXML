@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="0" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
+		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/appliedenergistics2-rv5-stable-11.jar</URL>
+			<Size>3570947</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f22759d4dcdc8aec7811d457367e106a</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>A Mod about Matter, Energy and using them to conquer the world..</description>
+				<version>rv5-stable-11</version>
+				<url>http://ae2.ae-mod.info</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+		</Module>
+		<Module name="Blur" id="blur" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/Blur-1.0.4-14.jar</URL>
+			<Size>16146</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fe6c57af5be36a9ed96f8ff7de61bbd1</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds a blurry background when viewing GUIs</description>
+				<version>1.0.4-14</version>
+				<url>http://tterrag.com</url>
+				<authors>tterrag</authors>
+			</Meta>
+		</Module>
+		<Module name="Carry On" id="carryon" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/CarryOn+MC1.12.2+v1.9.jar</URL>
+			<Size>295639</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9fcec3839307cddf5d107221dda53c61</MD5>
+			<Meta>
+				<credits>Tschipp, Purplicious_Cow, cy4n</credits>
+				<description>Carry On is a simple mod that improves game interaction by allowing players to pick up, carry, and place single block Tile Entities using only their empty hands.</description>
+				<version>1.9</version>
+				<url></url>
+				<authors>Tschipp, Purplicious_Cow, cy4n</authors>
+			</Meta>
+		</Module>
+		<Module name="Chest Transporter" id="chesttransporter" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/ChestTransporter-1.12.2-2.8.8.jar</URL>
+			<Size>314060</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6f5aadb16a4357aad4b8bc662b76de77</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds an item that allows you to transport chests.</description>
+				<version>1.12.2-2.8.8</version>
+				<url>http://www.minecraftforum.net/topic/506109-</url>
+				<authors>CubeX2</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/CodeChickenLib-1.12.2-3.1.8.341-universal.jar</URL>
+			<Size>659298</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b92d9acf18144067cd3143116808c32f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>3.1.8.341</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="Compact Machines 3" id="compactmachines3" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/compactmachines3-1.12.2-3.0.11-b207.jar</URL>
+			<Size>581749</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>91f7ceeee86482e3aaf79c0088bbfab5</MD5>
+			<Meta>
+				<credits>The Forge and FML guys, for making this possible</credits>
+				<description>It&apos;s all so tiny!</description>
+				<version>1.12.2-3.0.11-b207</version>
+				<url></url>
+				<authors>Davenonymous</authors>
+			</Meta>
+		</Module>
+		<Module name="CoroUtil Library" id="coroutil" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/coroutil-1.12.1-1.2.11.jar</URL>
+			<Size>2247366</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8f9be13e7db00a5dee040b151d585a08</MD5>
+			<Meta>
+				<credits>I&apos;d like to thank Coro, Corosauce, and CordonFreeman for making this possible</credits>
+				<description>Collection of systems and helper code for Corosus&apos;s mods</description>
+				<version>1.12.1-1.2.11</version>
+				<url>http://Coros.us/</url>
+				<authors>Corosus</authors>
+			</Meta>
+		</Module>
+		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/EnderStorage-1.12.2-2.4.3.130-universal.jar</URL>
+			<Size>227144</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fc0f1b8c7818757ce92221568c94b4fb</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Stores your stuff in the END!</description>
+				<version>2.4.3.130</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Cells 2" id="extracells" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/ExtraCells-1.12.2-2.5.13a58.jar</URL>
+			<Size>2563284</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>68da2325e8e986f7e78f2e2075e27aa6</MD5>
+			<Meta>
+				<credits>Textures by PaleoCrafter and Cyntain</credits>
+				<description>Adds new ME Storage Cells and some other cool stuff to AE 2.</description>
+				<version>2.5.13</version>
+				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x</url>
+				<authors>M3gaFr3ak, DrummerMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Flan&apos;s Mod" id="flansmod" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/Flan&apos;s%20Mod-1.12.2-5.5.2.jar</URL>
+			<Size>1449052</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>89c40a394ee7ee59bb0b92e143ced8d0</MD5>
+			<Meta>
+				<credits>All code contributors.</credits>
+				<description>Guns, planes and other vehicles in Minecraft.</description>
+				<version>5.5.2</version>
+				<url>http://www.flansmod.com</url>
+				<authors>jamioflan</authors>
+			</Meta>
+		</Module>
+		<Module name="Forestry" id="forestry" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/forestry_1.12.2-5.8.0.291.jar</URL>
+			<Size>5240279</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bc3c65388c737e240883f43b3ea814ec</MD5>
+			<Meta>
+				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
+				<description>Trees, bees and more.</description>
+				<version>5.8.0.291</version>
+				<url>http://forestry.sengir.net/</url>
+				<authors>SirSengir, mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="FPS Reducer" id="fpsreducer" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/FpsReducer-1.12.2-1.9.jar</URL>
+			<Size>38633</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e10447951b00191ce4bc754a114e1675</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Reduce GPU and CPU utilization during no operation.</description>
+				<version>1.12.2-1.9</version>
+				<url>https://minecraft.curseforge.com/projects/fps-reducer</url>
+				<authors>bre2el</authors>
+			</Meta>
+		</Module>
+		<Module name="Galacticraft-Planets-1.12.2-4.0.1.177" id="Galacticraft-Planets" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/Galacticraft-Planets-1.12.2-4.0.1.177.jar</URL>
+			<Size>3845865</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b381590fdf0390a584bf979a5f6d063d</MD5>
+		</Module>
+		<Module name="GalacticraftCore-1.12.2-4.0.1.177" id="GalacticraftCore" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/GalacticraftCore-1.12.2-4.0.1.177.jar</URL>
+			<Size>10356156</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7b6f3195c7bcad581fbadab8015d35e6</MD5>
+		</Module>
+		<Module name="Gravestone Mod" id="gravestone" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/gravestone-1.10.1.jar</URL>
+			<Size>76022</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d20de3163283cffe1620474e15da77d3</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Gravestone Mod</description>
+				<version>1.10.1</version>
+				<url>http://maxhenkel.de</url>
+				<authors>Max Henkel</authors>
+			</Meta>
+		</Module>
+		<Module name="iChunUtil" id="ichunutil" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/iChunUtil-1.12.2-7.1.4.jar</URL>
+			<Size>550812</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b81dab6549018c7b4b7829d30ef1d777</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Shared library mod required by several of iChun&apos;s Mods.</description>
+				<version>1.12.2-7.1.4</version>
+				<url>http://ichun.me/mods/ichunutil/</url>
+				<authors>iChun</authors>
+			</Meta>
+		</Module>
+		<Module name="IndustrialCraft 2" id="ic2" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/industrialcraft-2-2.8.73-ex112.jar</URL>
+			<Size>7982832</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ed584cbfb3dcc4e9fbe91acec623a93b</MD5>
+			<Meta>
+				<credits>Contributions by many people</credits>
+				<description>Industrial age themed expansion for Minecraft.</description>
+				<version>2.8.73-ex112</version>
+				<url>http://www.industrial-craft.net</url>
+				<authors>Alblaka, Player, RichardG, Thunderdark, GregoriusT, alexthesax, Drashian, Elementalist, Feanturi, Lurch1985, SirusKing, tahu44, Aroma1997, estebes, Chocohead</authors>
+			</Meta>
+		</Module>
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/InventoryTweaks-1.63.jar</URL>
+			<Size>263258</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
+			<Meta>
+				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
+				<version>1.63+release.109.220f184</version>
+				<url>https://github.com/Kobata/inventory-tweaks</url>
+				<authors>Jimeo Wan, Kobata</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/jei_1.12.2-4.9.1.188.jar</URL>
+			<Size>562060</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c6bf29ca13a2bd64348bd2b003795ce5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>4.9.1.188</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Mantle" id="mantle" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/Mantle-1.12-1.3.2.24.jar</URL>
+			<Size>860884</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e2cd9d3d5ad2078062c91f9c33fd215c</MD5>
+			<Meta>
+				<credits>mDiyo, Sunstrike</credits>
+				<description>Shared code for Slime Knights mods and others.</description>
+				<version>1.3.2.24</version>
+				<url>https://github.com/SlimeKnights/Mantle</url>
+				<authors>boni, progWML6, Alexbegt</authors>
+			</Meta>
+		</Module>
+		<Module name="MicdoodleCore-1.12.2-4.0.1.177" id="MicdoodleCore" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/MicdoodleCore-1.12.2-4.0.1.177.jar</URL>
+			<Size>52597</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7f9311f1944e7a8ca30754f0608d3fbc</MD5>
+		</Module>
+		<Module name="Minecraft Forge" id="forge-14.23.4.2703" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Override</ModType>
+		</Module>
+		<Module name="MobDismemberment" id="mobdismemberment" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/MobDismemberment-1.12.2-7.0.0.jar</URL>
+			<Size>22320</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>22ab479ab0c504cf1eec8d4cde93c300</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Dismember mobs!</description>
+				<version>1.12.2-7.0.0</version>
+				<url>http://ichun.me/mods/mob-dismemberment/</url>
+				<authors>iChun</authors>
+			</Meta>
+		</Module>
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/MouseTweaks-2.8-mc1.12.1.jar</URL>
+			<Size>68793</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
+			<Meta>
+				<credits>Various open-source mods from where I learned.</credits>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
+				<version>2.8</version>
+				<url>http://www.minecraftforum.net/topic/1518185-</url>
+				<authors>YaLTeR</authors>
+			</Meta>
+		</Module>
+		<Module name="OptiFine_1.12.2_HD_U_D3" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/OptiFine_1.12.2_HD_U_D3.jar</URL>
+			<Size>2380874</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>374a1e03b490afc539dabc04b29b49e6</MD5>
+		</Module>
+		<Module name="Squake" id="squake" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/Squake-mc1.12.2-1.0.5.jar</URL>
+			<Size>20924</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>958ceea1c51a0eb2eb4b2263aebf1a40</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Quake-style movement in Minecraft.</description>
+				<version>1.0.5</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Squeedometer" id="squeedometer" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/Squeedometer-mc1.12.x-1.0.4.jar</URL>
+			<Size>39685</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3149f7e59a8035d235d2d2f3dbe1767b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A speedometer.</description>
+				<version>1.0.4</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Tinkers Tool Leveling" id="tinkertoolleveling" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/TinkerToolLeveling-1.12-1.0.4.jar</URL>
+			<Size>94332</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9d509b63f11ed73e6819513c945be5e4</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A small mod that gives your tools XP and awards extra modifiers on levelup</description>
+				<version>1.12-1.0.4.DEV.5d716b9</version>
+				<url>https://github.com/SlimeKnights/TinkersToolLeveling</url>
+				<authors>boni</authors>
+			</Meta>
+		</Module>
+		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/TConstruct-1.12.2-2.10.0.81.jar</URL>
+			<Size>3803466</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>da1f9a225ab31275420e55bb5f88c833</MD5>
+			<Meta>
+				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
+				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
+				<version>1.12.2-2.10.0.81</version>
+				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
+				<authors>boni, KnightMiner</authors>
+			</Meta>
+		</Module>
+		<Module name="Waila" id="waila" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/Hwyla-1.8.24-B39_1.12.jar</URL>
+			<Size>452200</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6d03d0f2d87a80467d5d3e3ce2a80e98</MD5>
+			<Meta>
+				<credits></credits>
+				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
+				<version>1.8.24</version>
+				<url></url>
+				<authors>ProfMobius, TehNut</authors>
+			</Meta>
+		</Module>
+		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/Wawla-1.12.2-2.5.253.jar</URL>
+			<Size>81426</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c9798883817315860154725613db6e77</MD5>
+			<Meta>
+				<credits>ProfMobius for making the Waila mod.</credits>
+				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
+				<version>2.5.253</version>
+				<url>https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at</url>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/Xaeros_Minimap_1.15.1.2_Forge_1.12.jar</URL>
+			<Size>344792</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ca0b34948d221b63d1b80e22b29b3deb</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The most &quot;vanilla-looking&quot; minimap for Minecraft.</description>
+				<version>1.15.2</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/XaerosWorldMap_1.2.4_Forge_1.12.jar</URL>
+			<Size>145134</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>79bec78accc2843edb10fa40152ebe8a</MD5>
+			<Meta>
+				<credits>Xaero96</credits>
+				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
+				<version>1.2.4</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="Zombie Awareness" id="zombieawareness" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/zombieawareness-1.12.1-1.11.14.jar</URL>
+			<Size>284952</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a9a580428989fe6190f35f787105d614</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Smarter more aware zombies (and skeletons), they track you down via blood scent, sound, and light source awareness, config lets you pick and choose what features to have.</description>
+				<version>1.12.1-1.11.14</version>
+				<url></url>
+				<authors>Corosus</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
