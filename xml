@@ -16,8 +16,8 @@
 				<authors>AlgorithmX2</authors>
 			</Meta>
 		</Module>
-		<Module name="Blur" id="blur" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/Blur-1.0.4-14.jar</URL>
+		<Module name="Blur" id="blur" depends="" side="CLIENT">
+			<URL priority="0">https://minecraft.curseforge.com/projects/blur/files/2460821/download</URL>
 			<Size>16146</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
