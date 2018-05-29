@@ -212,6 +212,20 @@
 				<authors>Alblaka, Player, RichardG, Thunderdark, GregoriusT, alexthesax, Drashian, Elementalist, Feanturi, Lurch1985, SirusKing, tahu44, Aroma1997, estebes, Chocohead</authors>
 			</Meta>
 		</Module>
+		<Module name="Insomniac" id="insomniac" depends="" side="BOTH">
+			<URL priority="0">http://files.mcupdater.com/example/insomniac.jar</URL>
+			<Size>8488</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b605755ac4c65f31a65d92687bfeefd1</MD5>
+			<Meta>
+				<credits>Elucent for being a lifesaver</credits>
+				<description>Disables sleeping, but still sets your spawnpoint.</description>
+				<version>1.2</version>
+				<url></url>
+				<authors>Tage</authors>
+			</Meta>
+		</Module>
 		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/inventory-tweaks/files/2482481/download</URL>
 			<Size>263258</Size>
