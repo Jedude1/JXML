@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/appliedenergistics2-rv5-stable-11.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download</URL>
 			<Size>3570947</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -31,7 +31,7 @@
 			</Meta>
 		</Module>
 		<Module name="Carry On" id="carryon" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/CarryOn+MC1.12.2+v1.9.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/carry-on/files/2561006/download</URL>
 			<Size>295639</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -59,7 +59,7 @@
 			</Meta>
 		</Module>
 		<Module name="Compact Machines 3" id="compactmachines3" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/compactmachines3-1.12.2-3.0.11-b207.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/compact-machines/files/2558529/download</URL>
 			<Size>581749</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -87,7 +87,7 @@
 			</Meta>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/EnderStorage-1.12.2-2.4.3.130-universal.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/coroutil/files/2563474/download</URL>
 			<Size>227144</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -101,7 +101,7 @@
 			</Meta>
 		</Module>
 		<Module name="Extra Cells 2" id="extracells" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/ExtraCells-1.12.2-2.5.13a58.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/extracells2/files/2563998/download</URL>
 			<Size>2563284</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -115,7 +115,7 @@
 			</Meta>
 		</Module>
 		<Module name="Flan&apos;s Mod" id="flansmod" depends="" side="BOTH">
-			<URL priority="0">http://files.mcupdater.com/example/Flan&apos;s%20Mod-1.12.2-5.5.2.jar</URL>
+			<URL priority="0">http://download1223.mediafire.com/90sb6hz2xh4g/1g89orpu8nf3e8r/Flans+Mod+5.1+for+MC+1.8+and+Apocalypse+1.0.zip</URL>
 			<Size>1449052</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
