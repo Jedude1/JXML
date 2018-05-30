@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="25" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="26" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
@@ -119,20 +119,6 @@
 				<version>2.5.13</version>
 				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x</url>
 				<authors>M3gaFr3ak, DrummerMC</authors>
-			</Meta>
-		</Module>
-		<Module name="Flan&apos;s Mod" id="flansmod" depends="" side="BOTH">
-			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Flan.s.Mod-1.12.2-5.5.1.jar</URL>
-			<Size>1449385</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>0c7de78b268f24aff08c420bdf3235fc</MD5>
-			<Meta>
-				<credits>All code contributors.</credits>
-				<description>Guns, planes and other vehicles in Minecraft.</description>
-				<version>5.5.1</version>
-				<url>http://www.flansmod.com</url>
-				<authors>jamioflan</authors>
 			</Meta>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
@@ -435,8 +421,24 @@
 			</Meta>
 		</Module>
 
-<!-- Flan's Content Packs -->
-<!-- BORKEN
+<!-- Flan's mod/ Content Packs -->
+<!-- ALL break something -->
+<!--
+		<Module name="Flan&apos;s Mod" id="flansmod" depends="" side="BOTH">
+			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Flan.s.Mod-1.12.2-5.5.1.jar</URL>
+			<Size>1449385</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0c7de78b268f24aff08c420bdf3235fc</MD5>
+			<Meta>
+				<credits>All code contributors.</credits>
+				<description>Guns, planes and other vehicles in Minecraft.</description>
+				<version>5.5.1</version>
+				<url>http://www.flansmod.com</url>
+				<authors>jamioflan</authors>
+			</Meta>
+		</Module>
+
 		<Module name="Simple.Parts-Content.Pack-1.12.2-5.5.1" id="Simple.Parts-Content.Pack" depends="" side="BOTH">
 			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</URL>
 			<ModPath>Flan/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</ModPath>
@@ -445,7 +447,6 @@
 			<ModType>Regular</ModType>
 			<MD5>372e90f1c60a602f2b3805f240b9f26a</MD5>
 		</Module>
- -->
 		<Module name="WW2-Content.Pack-1.12.2-5.5.1" id="WW-Content.Pack" depends="" side="BOTH">
 			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/WW2-Content.Pack-1.12.2-5.5.1.jar</URL>
 			<ModPath>Flan/WW2-Content.Pack-1.12.2-5.5.1.jar</ModPath>
@@ -462,24 +463,7 @@
 			<ModType>Regular</ModType>
 			<MD5>eec28e90ac891dee6bd267ed3bdd04cb</MD5>
 		</Module>
-		
-<!-- Config file with autojump disabled  
-		
-		<Module name="options" id="" depends="" side="BOTH">
-			<URL priority="0"></URL>
-			<Size></Size>
-			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5></MD5>
-			<ConfigFile>
-				<URL>https://github.com/Jedude1/JXML/blob/master/options.txt</URL>
-				<Path>options.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c9c474cd0ed54a1a10522d503868a860</MD5>
-			</ConfigFile>
-		</Module>
--->
-		
+-->	
 <!-- next  -->
 		
 		<Module name="Hardcore Darkness" id="hardcoredarkness" depends="" side="BOTH">
