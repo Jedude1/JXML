@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="24" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="25" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
@@ -436,7 +436,7 @@
 		</Module>
 
 <!-- Flan's Content Packs -->
-
+<!-- BORKEN
 		<Module name="Simple.Parts-Content.Pack-1.12.2-5.5.1" id="Simple.Parts-Content.Pack" depends="" side="BOTH">
 			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</URL>
 			<ModPath>Flan/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</ModPath>
@@ -445,6 +445,7 @@
 			<ModType>Regular</ModType>
 			<MD5>372e90f1c60a602f2b3805f240b9f26a</MD5>
 		</Module>
+ -->
 		<Module name="WW2-Content.Pack-1.12.2-5.5.1" id="WW-Content.Pack" depends="" side="BOTH">
 			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/WW2-Content.Pack-1.12.2-5.5.1.jar</URL>
 			<ModPath>Flan/WW2-Content.Pack-1.12.2-5.5.1.jar</ModPath>
