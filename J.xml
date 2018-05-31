@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="27" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="28" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		
 
@@ -537,21 +537,6 @@
 				<authors>way2muchnoise</authors>
 			</Meta>
 		
-		</Module>
-
-		<Module name="Better Placement" id="betterplacement" depends="" side="BOTH">
-			<Curse project="better-placement" file="2481852"/>
-			<Required isDefault="false">false</Required>
-			<Size>7025</Size>
-			<ModType>Regular</ModType>
-			<MD5>f4518692cd397dd5beda3903289352f7</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Syncs block placement to cursor movement, allowing easier and faster building.</description>
-				<version>1.0.0-1</version>
-				<url>http://tterrag.com</url>
-				<authors>tterrag</authors>
-			</Meta>
 		</Module>
 
 		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
