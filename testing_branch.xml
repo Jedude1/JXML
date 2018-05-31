@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
@@ -301,6 +301,36 @@
 				<authors>YaLTeR</authors>
 			</Meta>
 		</Module>
+		
+		<Module name="OpenBlocks" id="openblocks" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/openblocks/files/2530225/download</URL>
+			<Size>3173186</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7581d1ce11ae5f433f9de0a33307ae3c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>All the things you never thought you will ever need</description>
+				<version>1.7.6</version>
+				<url>http://openmods.info/</url>
+				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
+			</Meta>
+		</Module>
+		<Module name="OpenModsLib" id="openmods" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/openmodslib/files/2525230/download</URL>
+			<Size>2609119</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>96d12398277ed4f10609f90d789b191a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Boring stuff for all that silly Open* mods</description>
+				<version>0.11.5</version>
+				<url>https://openmods.info/</url>
+				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
+			</Meta>
+		</Module>
+		
 		<Module name="OptiFine_1.12.2_HD_U_D1" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
 			<URL priority="0">https://github.com/MCUpdater/pack-optional/raw/master/mods/1.12/OptiFine_1.12.2_HD_U_D1.jar</URL>
 			<Size>2372821</Size>
@@ -422,49 +452,47 @@
 		</Module>
 
 <!-- Flan's mod/ Content Packs -->
-<!-- ALL break something -->
-<!--
 		<Module name="Flan&apos;s Mod" id="flansmod" depends="" side="BOTH">
-			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Flan.s.Mod-1.12.2-5.5.1.jar</URL>
-			<Size>1449385</Size>
+			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Flans/Flan&apos;s%20Mod-1.12.2-5.5.2.jar</URL>
+			<Size>1449052</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0c7de78b268f24aff08c420bdf3235fc</MD5>
+			<MD5>89c40a394ee7ee59bb0b92e143ced8d0</MD5>
 			<Meta>
 				<credits>All code contributors.</credits>
 				<description>Guns, planes and other vehicles in Minecraft.</description>
-				<version>5.5.1</version>
+				<version>5.5.2</version>
 				<url>http://www.flansmod.com</url>
 				<authors>jamioflan</authors>
 			</Meta>
 		</Module>
 
-		<Module name="Simple.Parts-Content.Pack-1.12.2-5.5.1" id="Simple.Parts-Content.Pack" depends="" side="BOTH">
-			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</URL>
-			<ModPath>Flan/Simple.Parts-Content.Pack-1.12.2-5.5.1.jar</ModPath>
+		<Module name="Simple Parts-Content Pack-1.12.2-5.5.2" id="SimpleParts-ContentPack" depends="" side="BOTH">
+			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Flans/Simple%20Parts-Content%20Pack-1.12.2-5.5.2.jar</URL>
+			<ModPath>Flan/Simple%20Parts-Content%20Pack-1.12.2-5.5.2.jar</ModPath>
 			<Size>234016</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>372e90f1c60a602f2b3805f240b9f26a</MD5>
+			<MD5>9cd6b1cb9f70d08663c690c0da718bad</MD5>
 		</Module>
-		<Module name="WW2-Content.Pack-1.12.2-5.5.1" id="WW-Content.Pack" depends="" side="BOTH">
-			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/WW2-Content.Pack-1.12.2-5.5.1.jar</URL>
-			<ModPath>Flan/WW2-Content.Pack-1.12.2-5.5.1.jar</ModPath>
-			<Size>5857108</Size>
+		<Module name="WW2-Content Pack-1.12.2-5.5.2" id="WW-ContentPack" depends="" side="BOTH">
+			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Flans/WW2-Content%20Pack-1.12.2-5.5.2.jar</URL>
+			<ModPath>Flan/WW2-Content%20Pack-1.12.2-5.5.2.jar</ModPath>
+			<Size>5857111</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a83cbc2259e7b55b2733c0ddcb23d6f4</MD5>
+			<MD5>510fc04169f8b50d3d3ff330e0bdf31e</MD5>
 		</Module>
-		<Module name="Ye.Olde-Content.Pack-1.12.2-5.5.1" id="Ye.Olde-Content.Pack" depends="" side="BOTH">
-			<URL priority="0">https://github.com/FlansMods/FlansMod/releases/download/v5.5.1/Ye.Olde-Content.Pack-1.12.2-5.5.1.jar</URL>
-			<ModPath>Flan/Ye.Olde-Content.Pack-1.12.2-5.5.1.jar</ModPath>
+		<Module name="Ye Olde-Content Pack-1.12.2-5.5.2" id="YeOlde-ContentPack" depends="" side="BOTH">
+			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Flans/Ye%20Olde-Content%20Pack-1.12.2-5.5.2.jar</URL>
+			<ModPath>Flan/Ye%20Olde-Content%20Pack-1.12.2-5.5.2.jar</ModPath>
 			<Size>91319</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>eec28e90ac891dee6bd267ed3bdd04cb</MD5>
+			<MD5>d8d24ae1d01364859ccd1a51e8cff8c1</MD5>
 		</Module>
--->	
-<!-- next  -->
+	
+<!-- End Flans  -->
 		
 		<Module name="Hardcore Darkness" id="hardcoredarkness" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/hardcore-darkness/files/2499443/download</URL>
@@ -512,7 +540,7 @@
 
 		<Module name="Better Placement" id="betterplacement" depends="" side="BOTH">
 			<Curse project="better-placement" file="2481852"/>
-			<Required isDefault="true">false</Required>
+			<Required isDefault="false">false</Required>
 			<Size>7025</Size>
 			<ModType>Regular</ModType>
 			<MD5>f4518692cd397dd5beda3903289352f7</MD5>
