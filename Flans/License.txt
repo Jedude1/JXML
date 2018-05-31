@@ -1,0 +1,3 @@
+"The gist of this license is that you may redistribute my mod in mod packs so long as you include a copy of this license (linking to this page is sufficient). This also applies to official content packs (Simple Parts, World War 2, Modern Weapons, Ye Olde, Nerf and Titan packs), but not to other people's packs. For those you will need the permission of the pack author."
+
+(from http://flansmod.com/license as of 5/30/2018)
