@@ -163,20 +163,6 @@
 			<ModType>Regular</ModType>
 			<MD5>7b6f3195c7bcad581fbadab8015d35e6</MD5>
 		</Module>
-		<Module name="Gravestone Mod" id="gravestone" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/gravestone-mod/files/2524880/download</URL>
-			<Size>76022</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>d20de3163283cffe1620474e15da77d3</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Gravestone Mod</description>
-				<version>1.10.1</version>
-				<url>http://maxhenkel.de</url>
-				<authors>Max Henkel</authors>
-			</Meta>
-		</Module>
 		<Module name="iChunUtil" id="ichunutil" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ichunutil/files/2510760/download</URL>
 			<Size>550812</Size>
@@ -565,5 +551,20 @@
 			</Meta>
 		</Module>
 
+		<Module name="LagGoggles" id="laggoggles" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/laggoggles/files/2536205/download</URL>
+			<Size>3806071</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>508e3da28e01551d9e140eaf033c18af</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Find lag on the server with ease.</description>
+				<version>1.12.2-4.1</version>
+				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
+				<authors>Terminator_NL</authors>
+			</Meta>
+		</Module>
+		
 	</Server>
 </ServerPack>
