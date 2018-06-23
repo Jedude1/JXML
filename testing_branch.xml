@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="29.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
@@ -563,6 +563,51 @@
 				<version>1.12.2-4.1</version>
 				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
 				<authors>Terminator_NL</authors>
+			</Meta>
+		</Module>
+		
+<!-- rev.30  -->
+
+		<Module name="Extra Planets" id="extraplanets" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/extraplanets/files/2573084/download</URL>
+			<Size>8436837</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>86aa3a1c49b850a9f8eedfd01daf2a15</MD5>
+			<Meta>
+				<credits>Micdoodle8 &amp; Radfast for creating galacticraft mod</credits>
+				<description>A Galacticraft Addon.</description>
+				<version>1.12.2-0.3.9</version>
+				<url>https://minecraft.curseforge.com/projects/extraplanets</url>
+				<authors>MJRLegends</authors>
+			</Meta>
+		</Module>
+		<Module name="MJRLegendsLib" id="mjrlegendslib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mjrlegendslib/files/2564017/download</URL>
+			<Size>100974</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7b80a4f778661093fc34471d831d0b03</MD5>
+			<Meta>
+				<credits>MJRLegends</credits>
+				<description>A library for all of MJRLegends Mods.</description>
+				<version>1.12.2-1.1.4</version>
+				<url></url>
+				<authors>MJRLegends</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Portals" id="simpleportals" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/simpleportals/files/2504419/download</URL>
+			<Size>246843</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>508b47564da746060e1d545a323777ac</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds portals for easy intra- and interdimensional travel.</description>
+				<version>1.12.2-1.5.1.0</version>
+				<url>https://minecraft.curseforge.com/projects/simpleportals</url>
+				<authors>Zarathul</authors>
 			</Meta>
 		</Module>
 		
