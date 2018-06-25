@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="29" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds" abstract="false" name="Jeds" newsUrl="http://jed.atwebpages.com/_about_.html" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="true" revision="29b" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		
 
@@ -381,6 +381,8 @@
 				<authors>ProfMobius, TehNut</authors>
 			</Meta>
 		</Module>
+
+<!-- disabled rev.29b
 		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2541610/download</URL>
 			<Size>81426</Size>
@@ -395,6 +397,7 @@
 				<authors>Darkhax</authors>
 			</Meta>
 		</Module>
+-->
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
 			<URL priority="0">http://chocolateminecraft.com/mods/Xaeros_Minimap_1.15.1.2_Forge_1.12.jar</URL>
 			<Size>344792</Size>
