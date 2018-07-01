@@ -1,3 +1,10 @@
 "The gist of this license is that you may redistribute my mod in mod packs so long as you include a copy of this license (linking to this page is sufficient). This also applies to official content packs (Simple Parts, World War 2, Modern Weapons, Ye Olde, Nerf and Titan packs), but not to other people's packs. For those you will need the permission of the pack author."
 
 (from http://flansmod.com/license as of 5/30/2018)
+
+
+
+3. License Grant
+Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below: to Reproduce the Work, to incorporate the Work into one or more Collections, and to Reproduce the Work as incorporated in the Collections; to create and Reproduce Adaptations provided that any such Adaptation, including any translation in any medium, takes reasonable steps to clearly label, demarcate or otherwise identify that changes were made to the original Work. For example, a translation could be marked "The original work was translated from English to Spanish," or a modification could indicate "The original work has been modified."; to Distribute and Publicly Perform the Work including as incorporated in Collections; and, to Distribute and Publicly Perform Adaptations. The above rights may be exercised in all media and formats whether now known or hereafter devised. The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats. Subject to Section 8(f), all rights not expressly granted by Licensor are hereby reserved, including but not limited to the rights described in Section 4(e).
+
+(the original work has been modified to be compatible with extra planets by removing the apocalypse content originally included within the flansmod jar)
