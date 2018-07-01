@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="29.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="https://dan-ball.jp/javagame/dust/game.php?g=dust&v=9.6" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="29.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
@@ -316,7 +316,6 @@
 				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
 			</Meta>
 		</Module>
-		
 		<Module name="OptiFine_1.12.2_HD_U_D1" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
 			<URL priority="0">https://github.com/MCUpdater/pack-optional/raw/master/mods/1.12/OptiFine_1.12.2_HD_U_D1.jar</URL>
 			<Size>2372821</Size>
@@ -380,48 +379,6 @@
 				<authors>ProfMobius, TehNut</authors>
 			</Meta>
 		</Module>
-		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2541610/download</URL>
-			<Size>81426</Size>
-			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>c9798883817315860154725613db6e77</MD5>
-			<Meta>
-				<credits>ProfMobius for making the Waila mod.</credits>
-				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
-				<version>2.5.253</version>
-				<url>https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at</url>
-				<authors>Darkhax</authors>
-			</Meta>
-		</Module>
-		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
-			<URL priority="0">http://chocolateminecraft.com/mods/Xaeros_Minimap_1.15.1.2_Forge_1.12.jar</URL>
-			<Size>344792</Size>
-			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>ca0b34948d221b63d1b80e22b29b3deb</MD5>
-			<Meta>
-				<credits></credits>
-				<description>The most &quot;vanilla-looking&quot; minimap for Minecraft.</description>
-				<version>1.15.2</version>
-				<url></url>
-				<authors>Xaero96</authors>
-			</Meta>
-		</Module>
-		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="BOTH">
-			<URL priority="0">http://chocolateminecraft.com/mods/XaerosWorldMap_1.2.4_Forge_1.12.jar</URL>
-			<Size>145134</Size>
-			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>79bec78accc2843edb10fa40152ebe8a</MD5>
-			<Meta>
-				<credits>Xaero96</credits>
-				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
-				<version>1.2.4</version>
-				<url></url>
-				<authors>Xaero96</authors>
-			</Meta>
-		</Module>
 		<Module name="Zombie Awareness" id="zombieawareness" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/zombie-awareness/files/2564634/download</URL>
 			<Size>284952</Size>
@@ -436,8 +393,7 @@
 				<authors>Corosus</authors>
 			</Meta>
 		</Module>
-
-<!-- Flan's mod/ Content Packs -->
+<!-- Flan's mod Content Packs -->
 		<Module name="Flan&apos;s Mod" id="flansmod" depends="" side="BOTH">
 			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Flans/Flan&apos;s%20Mod-1.12.2-5.5.2.jar</URL>
 			<Size>1449052</Size>
@@ -452,7 +408,6 @@
 				<authors>jamioflan</authors>
 			</Meta>
 		</Module>
-
 		<Module name="Simple Parts-Content Pack-1.12.2-5.5.2" id="SimpleParts-ContentPack" depends="" side="BOTH">
 			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Flans/Simple%20Parts-Content%20Pack-1.12.2-5.5.2.jar</URL>
 			<ModPath>Flan/Simple%20Parts-Content%20Pack-1.12.2-5.5.2.jar</ModPath>
@@ -567,7 +522,20 @@
 		</Module>
 		
 <!-- rev.30  -->
-
+		<Module name="Extra Cells 2" id="extracells" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/extracells2/files/2574581/download</URL>
+			<Size>2563291</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>490b3590162b7a0582311d17ba97f5bf</MD5>
+			<Meta>
+				<credits>Textures by PaleoCrafter and Cyntain</credits>
+				<description>Adds new ME Storage Cells and some other cool stuff to AE 2.</description>
+				<version>2.5.13</version>
+				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x</url>
+				<authors>M3gaFr3ak, DrummerMC</authors>
+			</Meta>
+		</Module>
 		<Module name="Extra Planets" id="extraplanets" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/extraplanets/files/2573084/download</URL>
 			<Size>8436837</Size>
@@ -580,6 +548,21 @@
 				<version>1.12.2-0.3.9</version>
 				<url>https://minecraft.curseforge.com/projects/extraplanets</url>
 				<authors>MJRLegends</authors>
+			</Meta>
+		</Module>
+<!-- removed apocalypse content -->
+		<Module name="Flan&apos;s Mod (-Apocalypse)" id="flansmod" depends="" side="BOTH">
+			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Flans/Flan's%20Mod-1.12.2-5.5.2%20(-Apocalypse).jar</URL>
+			<Size>1242313</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e14efc727d52d4ac0dd009d6e754a7e1</MD5>
+			<Meta>
+				<credits>All code contributors.</credits>
+				<description>Guns, planes and other vehicles in Minecraft. ((Removed apocalypse content from the original work))</description>
+				<version>5.5.2</version>
+				<url>http://www.flansmod.com</url>
+				<authors>jamioflan</authors>
 			</Meta>
 		</Module>
 		<Module name="MJRLegendsLib" id="mjrlegendslib" depends="" side="BOTH">
@@ -610,6 +593,50 @@
 				<authors>Zarathul</authors>
 			</Meta>
 		</Module>
-		
+<!-- Updated -->
+		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2569612/download</URL>
+			<Size>83630</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>7279e9c68a880a3e99a78e84e7b7bfd7</MD5>
+			<Meta>
+				<credits>ProfMobius for making the Waila mod.</credits>
+				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
+				<version>2.5.257</version>
+				<url>https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at</url>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+<!-- Updated -->
+		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
+			<URL priority="0">http://chocolateminecraft.com/mods/Xaeros_Minimap_1.15.2_Forge_1.12.jar</URL>
+			<Size>344825</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>337c4e57026f4d750d9e571d5456cdb8</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The most &quot;vanilla-looking&quot; minimap for Minecraft.</description>
+				<version>1.15.2</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+<!-- Updated -->
+		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="BOTH">
+			<URL priority="0">http://chocolateminecraft.com/mods/XaerosWorldMap_1.2.5_Forge_1.12.jar</URL>
+			<Size>148739</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>a488f1e76d419a41c3711a3a77c2ca3d</MD5>
+			<Meta>
+				<credits>Xaero96</credits>
+				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
+				<version>1.2.5</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
 	</Server>
 </ServerPack>
