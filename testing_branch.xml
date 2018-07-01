@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="https://bit.ly/2KstLK8" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="29.2b" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="https://bit.ly/2KstLK8" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="29.3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
@@ -107,6 +107,7 @@
 				<authors>ChickenBones, covers1624</authors>
 			</Meta>
 		</Module>
+<!-- has an annoying popup and we already have ender-tanks
 		<Module name="Extra Cells 2" id="extracells" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/extracells2/files/2563998/download</URL>
 			<Size>2563284</Size>
@@ -121,6 +122,7 @@
 				<authors>M3gaFr3ak, DrummerMC</authors>
 			</Meta>
 		</Module>
+-->
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/forestry/files/2562681/download</URL>
 			<Size>5240279</Size>
@@ -138,7 +140,7 @@
 		<Module name="FPS Reducer" id="fpsreducer" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/fps-reducer/files/2527580/download</URL>
 			<Size>38633</Size>
-			<Required isDefault="true">false</Required>
+			<Required isDefault="true">true</Required>
 			<ModType>Regular</ModType>
 			<MD5>e10447951b00191ce4bc754a114e1675</MD5>
 			<Meta>
@@ -522,20 +524,7 @@
 		</Module>
 		
 <!-- rev.30  -->
-		<Module name="Extra Cells 2" id="extracells" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/extracells2/files/2574581/download</URL>
-			<Size>2563291</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>490b3590162b7a0582311d17ba97f5bf</MD5>
-			<Meta>
-				<credits>Textures by PaleoCrafter and Cyntain</credits>
-				<description>Adds new ME Storage Cells and some other cool stuff to AE 2.</description>
-				<version>2.5.13</version>
-				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x</url>
-				<authors>M3gaFr3ak, DrummerMC</authors>
-			</Meta>
-		</Module>
+		
 		<Module name="Extra Planets" id="extraplanets" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/extraplanets/files/2573084/download</URL>
 			<Size>8436837</Size>
@@ -550,7 +539,7 @@
 				<authors>MJRLegends</authors>
 			</Meta>
 		</Module>
-<!-- removed apocalypse content -->
+<!-- updated to remove apocalypse content -->
 		<Module name="Flan&apos;s Mod (-Apocalypse)" id="flansmod" depends="" side="BOTH">
 			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Flans/Flan's%20Mod-1.12.2-5.5.2%20(-Apocalypse).jar</URL>
 			<Size>1242313</Size>
@@ -579,6 +568,7 @@
 				<authors>MJRLegends</authors>
 			</Meta>
 		</Module>
+<!-- cucks every other teleport method including galacticraft, IC2, AE2
 		<Module name="Simple Portals" id="simpleportals" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/simpleportals/files/2504419/download</URL>
 			<Size>246843</Size>
@@ -593,6 +583,7 @@
 				<authors>Zarathul</authors>
 			</Meta>
 		</Module>
+-->
 <!-- Updated -->
 		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2569612/download</URL>
