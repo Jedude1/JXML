@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="https://bit.ly/2KstLK8" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="30.5" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="https://bit.ly/2KstLK8" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="30.6" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 
 
@@ -628,6 +628,21 @@
 				<version>1.2.5</version>
 				<url></url>
 				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+<!-- rev.31  -->
+		<Module name="BuildCraft Lib" id="buildcraftlib" depends="" side="BOTH">
+			<URL priority="0">https://mod-buildcraft.com/releases/BuildCraft/7.99.18/buildcraft-7.99.18.jar</URL>
+			<Size>4396506</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9d6c43a8a03fc487f7dfdab07ea9fba3</MD5>
+			<Meta>
+				<credits>Created by SpaceToad</credits>
+				<description>Library mod used by buildcraft.</description>
+				<version>7.99.18</version>
+				<url>http://www.mod-buildcraft.com/</url>
+				<authors>SpaceToad, BuildCraft Team</authors>
 			</Meta>
 		</Module>
 	</Server>
