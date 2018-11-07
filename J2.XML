@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds 2" abstract="false" name="Jeds 2" newsUrl="https://www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds 2" abstract="false" name="Jeds 2" newsUrl="https://www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
 
 		<Module name="AbyssalCraft" id="abyssalcraft" depends="" side="BOTH">
@@ -325,7 +325,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/inventory-tweaks/files/2482481/download</URL>
 			<Size>263258</Size>
-			<Required isDefault="true">false</Required>
+			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
 			<Meta>
@@ -353,6 +353,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/jei/files/2635239/download</URL>
+			<Required isDefault="true">false</Required>
 			<Size>584272</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -367,6 +368,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 		</Module>
 		<Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2603567/download</URL>
+			<Required isDefault="true">false</Required>
 			<Size>219508</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -426,7 +428,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/mouse-tweaks/files/2462627/download</URL>
 			<Size>68793</Size>
-			<Required isDefault="true">false</Required>
+			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
 			<Meta>
@@ -453,6 +455,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 		</Module>
 		<Module name="OptiFine_.._HD_U_D" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
 			<URL priority="0">https://github.com/MCUpdater/pack-optional/raw/master/mods/1.12/OptiFine_1.12.2_HD_U_D1.jar</URL>
+			<Required isDefault="true">false</Required>
 			<Size>2372821</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -590,6 +593,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 		</Module>
 		<Module name="Waila Harvestability" id="wailaharvestability" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/waila-harvestability/files/2481605/download</URL>
+			<Required isDefault="true">false</Required>
 			<Size>31462</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -633,6 +637,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="BOTH">
 			<URL priority="0">http://chocolateminecraft.com/mods/XaerosWorldMap_1.3.2_Forge_1.12.jar</URL>
+			<Required isDefault="true">false</Required>
 			<Size>148739</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
