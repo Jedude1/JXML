@@ -460,6 +460,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 		</Module>
 		<Module name="Pam&apos;s HarvestCraft" id="harvestcraft" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2628183/download</URL>
+			<URL priority="1"></URL>
 			<Size>4581028</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
