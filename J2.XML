@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds 2" abstract="false" name="Jeds 2" newsUrl="https://bit.ly/2KstLK8" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds 2" abstract="false" name="Jeds 2" newsUrl="https://www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
 
 		<Module name="AbyssalCraft" id="abyssalcraft" depends="" side="BOTH">
