@@ -530,6 +530,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<url></url>
 				<authors>squeek</authors>
 			</Meta>
+		</Module>
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft/files/2629023/download</URL>
 			<Size>11360786</Size>
