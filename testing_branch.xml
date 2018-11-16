@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="https://bit.ly/2KstLK8" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="https://bit.ly/2KstLK8" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.4a" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
 
 		<Module name="AbyssalCraft" id="abyssalcraft" depends="" side="BOTH">
@@ -433,6 +433,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>MrCrayfish</authors>
 			</Meta>
 		</Module>
+		<!-- 0.4
 		<Module name="OptiFine_.._HD_U_D" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
 			<URL priority="0">https://github.com/MCUpdater/pack-optional/raw/master/mods/1.12/OptiFine_1.12.2_HD_U_D1.jar</URL>
 			<Required isDefault="true">false</Required>
@@ -440,7 +441,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>4bfc1c95dde8ec08568e01bfaa61e7c5</MD5>
-		</Module>
+		</Module>	-->
 		<!-- https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2628183/download -->
 		<Module name="Pam&apos;s HarvestCraft" id="harvestcraft" depends="" side="BOTH">
 			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Pam's%2BHarvestCraft%2B1.12.2za.jar</URL>
