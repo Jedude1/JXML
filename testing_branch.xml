@@ -1,8 +1,627 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="https://bit.ly/2KstLK8" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.0" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds_testing_branch" abstract="false" name="Jeds_testing_branch" newsUrl="https://bit.ly/2KstLK8" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
 
+		<Module name="AbyssalCraft" id="abyssalcraft" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/abyssalcraft/files/2616978/download</URL>
+			<Size>13176872</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2fab220fc6613747707aa1625801c6c9</MD5>
+			<Meta>
+				<credits>shinoow (coding), Uberorb (textures), DamienDarkside (sounds), PinkMustard (sounds), Funwayguy (sounds, code), Tiktalik (textures), Enderman_of_D00M (code), Dylan4ever (textures)</credits>
+				<description>Explore the world of the dead, along with Dark arts and Lovecraftian horrors. Surpass the boundaries of sanity!</description>
+				<version>1.12.2-1.9.4.13</version>
+				<url>https://shinoow.github.io/AbyssalCraft/</url>
+				<authors>shinoow</authors>
+			</Meta>
+		</Module>
 
+		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
+			<Curse project="appleskin" file="2496585"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
+			<Meta>
+				<description>Adds various food-related HUD improvements.</description>
+				<version>1.0.9</version>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Aroma1997&apos;s Dimensional World" id="aroma1997sdimension" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2623410/download</URL>
+			<Size>80616</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d5ba1a6df421b66578df33f8806552e3</MD5>
+			<Meta>
+				<credits>Code by Aroma1997, Textures by Schillaa</credits>
+				<description>This mod adds a new Dimension especially for mining. It is pretty much like the overworld, just different. :-)</description>
+				<version>2.0.0.2.b86</version>
+				<url>http://www.minecraftforum.net/topic/1679684-</url>
+				<authors>Aroma1997, Schillaa</authors>
+			</Meta>
+		</Module>
+		<Module name="Aroma1997Core" id="aroma1997core" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/aroma1997core/files/2623412/download</URL>
+			<Size>397708</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>df86ff98cc6621d9eae1de18a13ee448</MD5>
+			<Meta>
+				<credits>Code by Aroma1997, Textures by Schillaa</credits>
+				<description>This is basically a library used by most my other mods.</description>
+				<version>2.0.0.0.b161</version>
+				<url>http://www.minecraftforum.net/topic/1679684-</url>
+				<authors>Aroma1997, Schillaa</authors>
+			</Meta>
+		</Module>
+		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/autoreglib/files/2605109/download</URL>
+			<Size>97062</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ccc9194e20d4339cc7dc42c895dde347</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Automatically item, block, and model registration for mods.</description>
+				<version>1.3-20</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Baubles" id="baubles" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/baubles/files/2518667/download</URL>
+			<Size>108450</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>944dec4ef3fbfd4d498d94a7047af201</MD5>
+			<Meta>
+				<credits>Special thanks to chicken_bones</credits>
+				<description>Adding a touch of bling to Minecraft</description>
+				<version>1.12-1.5.2</version>
+				<url>http://www.minecraftforum.net/topic/2535073-baubles</url>
+				<authors>Azanor</authors>
+			</Meta>
+		</Module>
+
+    <Module name="Better Advancements" id="betteradvancements" depends="" side="CLIENT">
+			<Curse project="better-advancements" file="2504151"/>
+			<Size>43462</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>a16be15706357e59ccb196e59d17e33d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An improvement to the Advancementscreen</description>
+				<version>0.0.5</version>
+				<url>https://github.com/way2muchnoise/BetterAdvancements</url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2624239/download</URL>
+			<Size>4707183</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bd57946fb2e0d0cf2c991ad4306772fa</MD5>
+			<Meta>
+				<credits>Tim Rurkowski, gamax92, GridMonkey, and many more</credits>
+				<description>Adds over 50 new biomes, blocks, and more!</description>
+				<version>7.0.1</version>
+				<url>http://mods.curse.com/mc-mods/minecraft/220318-biomes-o-plenty</url>
+				<authors>Adubbz, Amnet, Cheeserolls, Forstride, ted80</authors>
+			</Meta>
+		</Module>
+		<Module name="Bonsai Trees" id="bonsaitrees" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/bonsai-trees/files/2627691/download</URL>
+			<Size>552913</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2be13e7afac2e2b0eee95fd1b1c0b927</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Tiny trees</description>
+				<version>1.1.1-b138</version>
+				<url>https://github.com/thraaawn/BonsaiTrees</url>
+				<authors>Davenonymous</authors>
+			</Meta>
+		</Module>
+		<Module name="BuildCraft Lib" id="buildcraftlib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/buildcraft/files/2616483/download</URL>
+			<Size>4399878</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b5f132d45a007b5a3d0781a31020595a</MD5>
+			<Meta>
+				<credits>Created by SpaceToad</credits>
+				<description>Library mod used by buildcraft.</description>
+				<version>7.99.18</version>
+				<url>http://www.mod-buildcraft.com/</url>
+				<authors>SpaceToad, BuildCraft Team</authors>
+			</Meta>
+		</Module>
+
+    <Module name="Carry On" id="carryon" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/carry-on/files/2561006/download</URL>
+			<Size>295639</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9fcec3839307cddf5d107221dda53c61</MD5>
+			<Meta>
+				<credits>Tschipp, Purplicious_Cow, cy4n</credits>
+				<description>Carry On is a simple mod that improves game interaction by allowing players to pick up, carry, and place single block Tile Entities using only their empty hands.</description>
+				<version>1.9</version>
+				<url></url>
+				<authors>Tschipp, Purplicious_Cow, cy4n</authors>
+			</Meta>
+		</Module>
+    <Module name="Chance Cubes" id="chancecubes" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/chance-cubes/files/2635579/download</URL>
+			<Size>917434</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>03d25c9835cd1bb576850955226b4348</MD5>
+			<Meta>
+				<credits>Funwayguy for the Icosahderon model and awesome rendering effects! https://twitter.com/Funwayguy</credits>
+				<description>A Game of Chance and Skill</description>
+				<version>1.12.2-3.2.2.240</version>
+				<url>http://minecraft.curseforge.com/mc-mods/233113-chance-cubes</url>
+				<authors>Turkey2349</authors>
+			</Meta>
+		</Module>
+		<Module name="Chisel" id="chisel" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/chisel/files/2619468/download</URL>
+			<Size>4310011</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dbda5475859bcffc9f572c5a1506a1f4</MD5>
+			<Meta>
+				<credits>AUTOMATIC_MAIDEN for the original mod,
+asie for porting to 1.7.2,
+and Pokenfenn/Cricket for continuing it in 1.7.
+This mod uses textures from the Painterly Pack: http://painterlypack.net/.</credits>
+				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
+				<version>MC1.12.2-0.2.1.35</version>
+				<url>https://minecraft.curseforge.com/projects/chisel</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
+			<Curse project='client-tweaks' file='2544119'/>
+			<Size>29611</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>d25fa68029a9be0f5f99f324ce8b83f3</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>There, I fixed Minecraft for you.</description>
+				<version>3.1.6</version>
+				<url>http://balyware.com</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="ComputerCraft" id="computercraft" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/computercraft/files/2478952/download</URL>
+			<Size>1641429</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>df638d71e9f8834cf7f0784cf4ab4f41</MD5>
+			<Meta>
+				<credits>Created by Daniel Ratcliffe (@DanTwoHundred)</credits>
+				<description>ComputerCraft adds Computers, Programming and Robotics to Minecraft.</description>
+				<version>1.80pr1</version>
+				<url>http://www.computercraft.info</url>
+				<authors>Daniel Ratcliffe, Aaron Mills</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
+			<Curse project="controlling" file="2522248"/>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0d9a0429c72bc1c06358f1166bdd8c59</MD5>
+			<Meta>
+				<description>Adds a search bar to the Key-Bindings menu.</description>
+				<version>3.0.6</version>
+				<authors>jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="CTM" id="ctm" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ctm/files/2629306/download</URL>
+			<Size>193477</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6efc0b781cd559201397cbee149a68c6</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
+				<version>MC1.12.2-0.3.2.20</version>
+				<url>https://minecraft.curseforge.com/projects/ctm</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+		</Module>
+<!-- removed in 0.4, re-enable if it breaks
+		<Module name="CTMLib-MC1.7.10-1.4.1.5" id="CTMLib-MC" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ctmlib/files/2273524/download</URL>
+			<Size>29801</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>70897405312d90791c5b05ad41bf465b</MD5>
+		</Module>
+ -->
+		<Module name="FPS Reducer" id="fpsreducer" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/fps-reducer/files/2527580/download</URL>
+			<Size>38633</Size>
+			<Required isDefault="true">true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e10447951b00191ce4bc754a114e1675</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Reduce GPU and CPU utilization during no operation.</description>
+				<version>1.12.2-1.9</version>
+				<url>https://minecraft.curseforge.com/projects/fps-reducer</url>
+				<authors>bre2el</authors>
+			</Meta>
+		</Module>
+		<Module name="Galacticraft-Planets-1.12.2-4.0.1.177" id="Galacticraft-Planets" depends="" side="BOTH">
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/177/artifact/Forge/build/libs/Galacticraft-Planets-1.12.2-4.0.1.177.jar</URL>
+			<Size>3845865</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b381590fdf0390a584bf979a5f6d063d</MD5>
+		</Module>
+		<Module name="GalacticraftCore-1.12.2-4.0.1.177" id="GalacticraftCore" depends="" side="BOTH">
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/177/artifact/Forge/build/libs/GalacticraftCore-1.12.2-4.0.1.177.jar</URL>
+			<Size>10356156</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7b6f3195c7bcad581fbadab8015d35e6</MD5>
+		</Module>
+		<Module name="Gravestone Mod" id="gravestone" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/gravestone-mod/files/2608278/download</URL>
+			<Size>77156</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c6499e99f1a7bccff8cb2e6c0cc28eeb</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Gravestone Mod</description>
+				<version>1.10.2</version>
+				<url>http://maxhenkel.de</url>
+				<authors>Max Henkel</authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/immersive-engineering/files/2625312/download</URL>
+			<Size>6242473</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3876e9b8ce95ed5bc60b3ca69b8f5df4</MD5>
+			<Meta>
+				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
+				<description>A tech based mod focused on realism.</description>
+				<version>0.12-86</version>
+				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
+				<authors>BluSunrize, Damien A.W. Hazard</authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Tech" id="immersivetech" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/immersive-tech/files/2568579/download</URL>
+			<Size>522502</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3be088e1e5b1bea50f04cdfb4082a528</MD5>
+			<Meta>
+				<credits></credits>
+				<description>More tech for IE</description>
+				<version>1.3.10</version>
+				<url>https://github.com/FerroO2000/Immersive-Tech</url>
+				<authors>FerroO2000</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/inventory-tweaks/files/2482481/download</URL>
+			<Size>263258</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
+			<Meta>
+				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
+				<version>1.63+release.109.220f184</version>
+				<url>https://github.com/Kobata/inventory-tweaks</url>
+				<authors>Jimeo Wan, Kobata</authors>
+			</Meta>
+		</Module>
+		<Module name="Iron Chest" id="ironchest" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/iron-chests/files/2626113/download</URL>
+			<Size>944009</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>07acb05815ef41cd463bcf492a1555a4</MD5>
+			<Meta>
+				<credits>By cpw, based on an original idea by Lishid</credits>
+				<description>New chests with larger sizes, with in-place upgrade items.
+The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
+				<version>1.12.2-7.0.52.837</version>
+				<url>http://www.minecraftforum.net/topic/981855-</url>
+				<authors>cpw</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/jei/files/2635239/download</URL>
+			<Required isDefault="true">false</Required>
+			<Size>584272</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9bd5dfe761fc8e9414aa59b83c7187c8</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>4.13.1.222</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2603567/download</URL>
+			<Required isDefault="true">false</Required>
+			<Size>219508</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>46eba58b0fb1ff7dd249588d8c3f1131</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
+				<version>0.8.10</version>
+				<url></url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+    
+		<Module name="LagGoggles" id="laggoggles" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/laggoggles/files/2536205/download</URL>
+			<Size>3806071</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>508e3da28e01551d9e140eaf033c18af</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Find lag on the server with ease.</description>
+				<version>1.12.2-4.1</version>
+				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
+				<authors>Terminator_NL</authors>
+			</Meta>
+		</Module>
+
+		<Module name="MicdoodleCore-1.12.2-4.0.1.177" id="MicdoodleCore" depends="" side="BOTH">
+			<URL priority="0">https://ci.micdoodle8.com/job/Galacticraft-1.12/177/artifact/Forge/build/libs/MicdoodleCore-1.12.2-4.0.1.177.jar</URL>
+			<Size>52597</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7f9311f1944e7a8ca30754f0608d3fbc</MD5>
+		</Module>
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mouse-tweaks/files/2462627/download</URL>
+			<Size>68793</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
+			<Meta>
+				<credits>Various open-source mods from where I learned.</credits>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
+				<version>2.8</version>
+				<url>http://www.minecraftforum.net/topic/1518185-</url>
+				<authors>YaLTeR</authors>
+			</Meta>
+		</Module>
+		<Module name="MrCrayfish&apos;s Furniture Mod" id="cfm" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mrcrayfish-furniture-mod/files/2630104/download</URL>
+			<Size>2306420</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6bc236fdc6305f8186bbc01cc3e54c39</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds over 50 unique pieces of furniture to the game!</description>
+				<version>5.15.0</version>
+				<url>https://mrcrayfish.com/mods?id=cfm</url>
+				<authors>MrCrayfish</authors>
+			</Meta>
+		</Module>
+		<Module name="OptiFine_.._HD_U_D" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
+			<URL priority="0">https://github.com/MCUpdater/pack-optional/raw/master/mods/1.12/OptiFine_1.12.2_HD_U_D1.jar</URL>
+			<Required isDefault="true">false</Required>
+			<Size>2372821</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4bfc1c95dde8ec08568e01bfaa61e7c5</MD5>
+		</Module>
+		<!-- https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2628183/download -->
+		<Module name="Pam&apos;s HarvestCraft" id="harvestcraft" depends="" side="BOTH">
+			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Pam's%2BHarvestCraft%2B1.12.2za.jar</URL>
+			<Size>4581028</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3e90f4c51ab732e63c0142fad22e7734</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Expanding minecraft&apos;s food system.</description>
+				<version>1.12a</version>
+				<url>http://minecraft.curseforge.com/members/MatrexsVigil/projects</url>
+				<authors>Pamela Collins</authors>
+			</Meta>
+		</Module>
+		<Module name="Quark" id="quark" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/quark/files/2620164/download</URL>
+			<Size>1875001</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>df25e642bcde8f609a1044b7007045e3</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Small things.</description>
+				<version>r1.5-130</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii, wiiv</authors>
+			</Meta>
+		</Module>
+		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2633578/download</URL>
+			<Size>5125466</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4dea940bc59ccc4bd1654487b7b9cb3a</MD5>
+			<Meta>
+				<credits>Emberwalker, for the original Forgelin</credits>
+				<description>Kotlin helper library for Forge.</description>
+				<version>1.8.0</version>
+				<url>https://github.com/shadowfacts/Forgelin</url>
+				<authors>shadowfacts</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Squeedometer" id="squeedometer" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/squeedometer/files/2495580/download</URL>
+			<Size>39685</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>3149f7e59a8035d235d2d2f3dbe1767b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A speedometer.</description>
+				<version>1.0.4</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft/files/2629023/download</URL>
+			<Size>11360786</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b13783ccaafb5d5b9ce8cb85e87fff6</MD5>
+			<Meta>
+				<credits>Special thanks to CovertJaguar, Dan Scott, Lorc, bonemouse, Scott Killen, Rorax and chicken_bones</credits>
+				<description>Adding a touch of magic to Minecraft</description>
+				<version>1.12.2-6.1.BETA26</version>
+				<url>http://www.minecraftforum.net/topic/2011841-thaumcraft</url>
+				<authors>Azanor</authors>
+			</Meta>
+		</Module>
+		<Module name="The Twilight Forest" id="twilightforest" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/the-twilight-forest/files/2618264/download</URL>
+			<Size>7296016</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d9a9e3e5dd851f5cbb50b72aab5e6037</MD5>
+			<Meta>
+				<credits>By Benimatic (Ben Mazur)</credits>
+				<description>An enchanted forest dimension.</description>
+				<version>3.8.689</version>
+				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
+				<authors>Benimatic, AtomicBlom, Drullkus, Killer_Demon, quadraxis, Tamaized, williewillus</authors>
+			</Meta>
+		</Module>
+		<Module name="Traverse" id="traverse" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/traverse/files/2613657/download</URL>
+			<Size>270133</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3cc748cd333cab2e5f8132a89cd40b48</MD5>
+			<Meta>
+				<credits>TheCodedOne for maintaining the mod for a bit, and InsomniaKitten for some assets</credits>
+				<description>Improving the world with fancy new biomes since 2017.</description>
+				<version>1.12.2-1.6.0-69</version>
+				<url>https://github.com/TraverseTeam/Traverse</url>
+				<authors>Prospector</authors>
+			</Meta>
+		</Module>
+		<Module name="Waila" id="waila" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/hwyla/files/2542548/download</URL>
+			<Size>452200</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>6d03d0f2d87a80467d5d3e3ce2a80e98</MD5>
+			<Meta>
+				<credits></credits>
+				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
+				<version>1.8.24</version>
+				<url></url>
+				<authors>ProfMobius, TehNut</authors>
+			</Meta>
+		</Module>
+		<Module name="Waila Harvestability" id="wailaharvestability" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/waila-harvestability/files/2481605/download</URL>
+			<Required isDefault="true">false</Required>
+			<Size>31462</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0bd8765ff3064be336cb1b09208e410c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An add-on for Waila that adds information about the harvestability of what you are looking at</description>
+				<version>1.1.12</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Waystones" id="waystones" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/waystones/files/2624701/download</URL>
+			<Size>172854</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c0e79051072dcc3aacad71be1f31f7c4</MD5>
+			<Meta>
+				<credits>Developed by BlayTheNinth. Includes item icons by @JoeCreates released under CC-BY-SA 3.0</credits>
+				<description>Teleport back to activated waystones. For Survival, Adventure or Servers.</description>
+				<version>4.0.67</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+
+		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2569612/download</URL>
+			<Size>83630</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>7279e9c68a880a3e99a78e84e7b7bfd7</MD5>
+			<Meta>
+				<credits>ProfMobius for making the Waila mod.</credits>
+				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
+				<version>2.5.257</version>
+				<url>https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at</url>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="BOTH">
+			<URL priority="0">http://chocolateminecraft.com/mods/XaerosWorldMap_1.3.2_Forge_1.12.jar</URL>
+			<Required isDefault="true">false</Required>
+			<Size>148739</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a488f1e76d419a41c3711a3a77c2ca3d</MD5>
+			<Meta>
+				<credits>Xaero96</credits>
+				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
+				<version>1.2.5</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+<!--rev. 1.0 -->
+		<Module name="OptiFine_1.12.2_HD_U_D3" id="OptiFine" depends="" side="BOTH">
+			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/D3.jar</URL>
+			<Size>2380874</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>374a1e03b490afc539dabc04b29b49e6</MD5>
+		</Module>
+		
 	</Server>
 </ServerPack>
