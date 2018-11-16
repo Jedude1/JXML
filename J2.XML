@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds 2" abstract="false" name="Jeds 2" newsUrl="https://www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds 2" abstract="false" name="Jeds 2" newsUrl="https://www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
 
 		<Module name="AbyssalCraft" id="abyssalcraft" depends="" side="BOTH">
@@ -243,14 +243,15 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>tterrag, Drullkus, minecreatr</authors>
 			</Meta>
 		</Module>
+<!-- removed in 0.4, re-enable if it breaks
 		<Module name="CTMLib-MC1.7.10-1.4.1.5" id="CTMLib-MC" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ctmlib/files/2273524/download</URL>
 			<Size>29801</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>70897405312d90791c5b05ad41bf465b</MD5>
 		</Module>
-
+ -->
 		<Module name="FPS Reducer" id="fpsreducer" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/fps-reducer/files/2527580/download</URL>
 			<Size>38633</Size>
@@ -404,27 +405,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<ModType>Regular</ModType>
 			<MD5>7f9311f1944e7a8ca30754f0608d3fbc</MD5>
 		</Module>
-<!-- auto generated delete in 0.2 unless it doesn't work for some reason
-		<Module name="Minecraft Forge" id="forge-14.23.4.2703" depends="" side="BOTH">
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Override</ModType>
-		</Module>
-		<Module name="Morpheus" id="morpheus" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/morpheus/files/2432272/download</URL>
-			<Size>20837</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>6beb6c9b45a6526106f728ec35508a0c</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.</description>
-				<version>1.12-3.3.2</version>
-				<url>http://www.curse.com/mc-mods/Minecraft/morpheus</url>
-				<authors>Quetzi</authors>
-			</Meta>
-		</Module>
- -->
 		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/mouse-tweaks/files/2462627/download</URL>
 			<Size>68793</Size>
@@ -453,6 +433,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>MrCrayfish</authors>
 			</Meta>
 		</Module>
+		<!-- 0.4
 		<Module name="OptiFine_.._HD_U_D" id="OptiFine_.._HD_U_D" depends="" side="BOTH">
 			<URL priority="0">https://github.com/MCUpdater/pack-optional/raw/master/mods/1.12/OptiFine_1.12.2_HD_U_D1.jar</URL>
 			<Required isDefault="true">false</Required>
@@ -460,7 +441,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>4bfc1c95dde8ec08568e01bfaa61e7c5</MD5>
-		</Module>
+		</Module>	-->
 		<!-- https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2628183/download -->
 		<Module name="Pam&apos;s HarvestCraft" id="harvestcraft" depends="" side="BOTH">
 			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/Pam's%2BHarvestCraft%2B1.12.2za.jar</URL>
@@ -490,22 +471,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
 		</Module>
-    <!-- for steve's carts reborn? 
-		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
-			<URL priority="0">baseURL_name/RebornCore-1.12.2-3.10.4.348-universal.jar</URL>
-			<Size>581264</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>830ae1ddcf356f13b008f499f66fb637</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
-				<version>3.10.4.348</version>
-				<url>https://github.com/TechReborn/RebornCore</url>
-				<authors>modmuss50, Gigabit101, Prospector</authors>
-			</Meta>
-		</Module>
-    -->
 		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2633578/download</URL>
 			<Size>5125466</Size>
@@ -650,6 +615,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
-
+<!--rev. 0.4 -->
+		<Module name="OptiFine_1.12.2_HD_U_D3" id="OptiFine" depends="" side="BOTH">
+			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/D3.jar</URL>
+			<Size>2380874</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>374a1e03b490afc539dabc04b29b49e6</MD5>
+		</Module>
+		
 	</Server>
 </ServerPack>
