@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Jeds 2" abstract="false" name="Jeds 2" newsUrl="https://www.google.com" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="Jeds (Chapter 2)" abstract="false" name="Jeds (Chapter 2)" newsUrl="https://raw.githubusercontent.com/Jedude1/JXML/master/Chapter2News" version="1.12.2" serverAddress="192.99.47.179:27185" generateList="true" autoConnect="false" revision="2-0.4b" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
 
 		<Module name="AbyssalCraft" id="abyssalcraft" depends="" side="BOTH">
@@ -243,15 +243,6 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>tterrag, Drullkus, minecreatr</authors>
 			</Meta>
 		</Module>
-<!-- removed in 0.4, re-enable if it breaks
-		<Module name="CTMLib-MC1.7.10-1.4.1.5" id="CTMLib-MC" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/ctmlib/files/2273524/download</URL>
-			<Size>29801</Size>
-			<Required>false</Required>
-			<ModType>Regular</ModType>
-			<MD5>70897405312d90791c5b05ad41bf465b</MD5>
-		</Module>
- -->
 		<Module name="FPS Reducer" id="fpsreducer" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/fps-reducer/files/2527580/download</URL>
 			<Size>38633</Size>
@@ -615,7 +606,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
-<!--rev. 0.4 -->
+<!--rev. 2-0.4 -->
 		<Module name="OptiFine_1.12.2_HD_U_D3" id="OptiFine" depends="" side="BOTH">
 			<URL priority="0">https://github.com/Jedude1/JXML/raw/master/D3.jar</URL>
 			<Size>2380874</Size>
@@ -624,5 +615,66 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<MD5>374a1e03b490afc539dabc04b29b49e6</MD5>
 		</Module>
 		
+<!--rev. 2-0.5 -->
+		<Module name="Squake" id="squake" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/squake/files/2574253/download</URL>
+			<Required isDefault="false">false</Required>
+			<Size>23106</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>170ab529dcb7735ab1476637dfe44919</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Quake-style movement in Minecraft.</description>
+				<version>1.0.6</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="TC6 Aspects for JEI" id="tc6aspects4jei" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft-6-aspects-for-jei/files/2579495/download</URL>
+			<Required isDefault="true">false</Required>
+			<Size>15236</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>580045bd56e348b30629ccfb376c979a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Find a list of items that share a common aspect</description>
+				<version>0.0.2a</version>
+				<url></url>
+				<authors>ZaBi94</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/xaeros-minimap/files/2629820/download</URL>
+			<Required isDefault="true">false</Required>
+			<Size>365392</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>84a61d51f596c79d8f6a45defbd8587b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The most &quot;vanilla-looking&quot; minimap for Minecraft.</description>
+				<version>1.15.8</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="BOTH">
+			<URL priority="0">http://chocolateminecraft.com/mods/XaerosWorldMap_1.3.3_Forge_1.12.jar</URL>
+			<Required isDefault="true">false</Required>
+			<Size>198874</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5570d55b41dc2fffafd560fbff4a5a85</MD5>
+			<Meta>
+				<credits>Xaero96</credits>
+				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
+				<version>1.3.3</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
 	</Server>
 </ServerPack>
